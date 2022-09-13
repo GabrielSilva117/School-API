@@ -7,8 +7,7 @@ import {
   OneToOne,
   JoinColumn,
   CreateDateColumn,
-  UpdateDateColumn,
-  IsNull
+  UpdateDateColumn
 } from 'typeorm'
 import { Student } from './student'
 import { Teacher } from './teacher'
